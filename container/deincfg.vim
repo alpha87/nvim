@@ -18,6 +18,7 @@ if dein#load_state('/root/.cache/dein')
   "call dein#add('Shougo/neosnippet.vim')
   "call dein#add('Shougo/neosnippet-snippets')
   call dein#load_toml('/root/.config/nvim/container/config/plugins.toml', {'lazy': 0})
+  call dein#add('Valloric/YouCompleteMe')
 
   " Required:
   call dein#end()
