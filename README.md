@@ -96,3 +96,52 @@ repo = 'davidhalter/jedi-vim'
 |hook_post_source|插件加载后立即|
 |hook_post_update|插件更新后立即生效|
 |hook_done_update|更新所有插件后立即|
+
+```
+" ----------------------------------------- "
+" 快捷键汇总
+" leader: ,
+
+" <Control-l> YCM 跳转到文档处
+" <Control-q> xptemplate 自动补全片段
+
+" <F2> 目录树
+" <F3> TagList 展示
+" <F7> Flake8检查
+" <F8> 执行代码
+" <F9> 宽度 +3
+" <F10> 宽度 -3
+" <F11> 高度 +3
+" <F12> 高度 -3
+
+" <leader>l 开启/关闭缩进提示线
+" <leader>i 快速打断点 (自定义方法)
+" <leader>gb git版本提示
+" <leader>y Yapf格式化代码
+" <leader>p 快速搜索
+" <leader>P 快速执行PEP8格式化
+" <leader>fp 显示最近打开的文件
+" <leader>f 利用YCM插件调转到方法或定义
+" <leader>d 利用jedi插件调转到方法或定义
+" <leader>g 使用jedi的goto跳转
+" <leader>,. 括号高亮开启或关闭
+" <leader>fu 进入当前文件的函数列表搜索
+" <leader>fU 搜索当前光标下单词对应的函数
+" <leader>cc   加注释
+" <leader>cu   解开注释
+" <leader>c<space>  加上/解开注释, 智能判断 toggle
+" <leader>cy   先复制, 再注解(p可以进行黏贴)
+
+" buffer切换
+" [- 向左
+" [= 向右
+" :ls 列出所有buffer
+" :bd{number}删除对应buffer
+
+" vim-fugitive 使用命令
+" :Gblame 显示提交者记录
+" :Gdiff 显示代码差异
+" :Gstatus 显示代码状态
+" :Gedit 开启或关闭侧边栏
+" ----------------------------------------- "
+```
