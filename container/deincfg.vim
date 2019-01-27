@@ -17,7 +17,7 @@ if dein#load_state('/root/.cache/dein')
   " Add or remove your plugins here like this:
   "call dein#add('Shougo/neosnippet.vim')
   "call dein#add('Shougo/neosnippet-snippets')
-  call dein#load_toml('/root/.config/nvim/container/config/plugins.toml', {'lazy': 0})
+  call dein#load_toml('/root/.config/nvim/container/config/plugins.toml')
   call dein#add('Valloric/YouCompleteMe')
 
   " Required:

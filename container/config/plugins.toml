@@ -3,6 +3,10 @@ repo = 'scrooloose/nerdtree'
 hook_add = 'source /root/.config/nvim/container/plugin/nerdtree.vim'
 
 [[plugins]]
+repo = 'Valloric/YouCompleteMe'
+hook_add = 'source /root/.config/nvim/container/plugin/YouCompleteMe.vim'
+
+[[plugins]]
 repo = 'ctrlpvim/ctrlp.vim'
 hook_add = 'source /root/.config/nvim/container/plugin/ctrlp-funky.vim'
 
