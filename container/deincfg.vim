@@ -4,20 +4,20 @@ if &compatible
 endif
 
 " Required:
-set runtimepath+=/root/.cache/dein/repos/github.com/Shougo/dein.vim
+set runtimepath+=~/.cache/dein/repos/github.com/Shougo/dein.vim
 
 " Required:
-if dein#load_state('/root/.cache/dein')
-  call dein#begin('/root/.cache/dein')
+if dein#load_state('~/.cache/dein')
+  call dein#begin('~/.cache/dein')
 
   " Let dein manage dein
   " Required:
-  call dein#add('/root/.cache/dein/repos/github.com/Shougo/dein.vim')
+  call dein#add('~/.cache/dein/repos/github.com/Shougo/dein.vim')
 
   " Add or remove your plugins here like this:
   "call dein#add('Shougo/neosnippet.vim')
   "call dein#add('Shougo/neosnippet-snippets')
-  call dein#load_toml('/root/.config/nvim/container/config/plugins.toml')
+  call dein#load_toml('~/.config/nvim/container/config/plugins.toml')
   call dein#add('Valloric/YouCompleteMe')
 
   " Required:

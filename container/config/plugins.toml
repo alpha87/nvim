@@ -1,34 +1,34 @@
 [[plugins]]
 repo = 'scrooloose/nerdtree'
-hook_add = 'source /root/.config/nvim/container/plugin/nerdtree.vim'
+hook_add = 'source ~/.config/nvim/container/plugin/nerdtree.vim'
 
 [[plugins]]
 repo = 'Valloric/YouCompleteMe'
-hook_add = 'source /root/.config/nvim/container/plugin/YouCompleteMe.vim'
+hook_add = 'source ~/.config/nvim/container/plugin/YouCompleteMe.vim'
 
 [[plugins]]
 repo = 'ctrlpvim/ctrlp.vim'
-hook_add = 'source /root/.config/nvim/container/plugin/ctrlp-funky.vim'
+hook_add = 'source ~/.config/nvim/container/plugin/ctrlp-funky.vim'
 
 [[plugins]]
 repo = 'vim-airline/vim-airline'
-hook_add = 'source /root/.config/nvim/container/plugin/airline.vim'
+hook_add = 'source ~/.config/nvim/container/plugin/airline.vim'
 
 [[plugins]]
 repo = 'vim-airline/vim-airline-themes'
-hook_add = 'source /root/.config/nvim/container/plugin/airline.vim'
+hook_add = 'source ~/.config/nvim/container/plugin/airline.vim'
 
 [[plugins]]
 repo = 'majutsushi/tagbar'
-hook_add = 'source /root/.config/nvim/container/plugin/Tagbar.vim'
+hook_add = 'source ~/.config/nvim/container/plugin/Tagbar.vim'
 
 [[plugins]]
 repo = 'w0rp/ale'
-hook_add = 'source /root/.config/nvim/container/plugin/ale.vim'
+hook_add = 'source ~/.config/nvim/container/plugin/ale.vim'
 
 [[plugins]]
 repo = 'kien/rainbow_parentheses.vim'
-hook_add = 'source /root/.config/nvim/container/plugin/rainbow_parentheses.vim'
+hook_add = 'source ~/.config/nvim/container/plugin/rainbow_parentheses.vim'
 
 [[plugins]]
 repo = 'airblade/vim-gitgutter'
@@ -38,7 +38,7 @@ repo = 'tpope/vim-fugitive'
 
 [[plugins]]
 repo = 'zivyangll/git-blame.vim'
-hook_add = 'source /root/.config/nvim/container/plugin/git-blame.vim'
+hook_add = 'source ~/.config/nvim/container/plugin/git-blame.vim'
 
 [[plugins]]
 repo = 'yianwillis/vimcdoc'
@@ -48,29 +48,29 @@ repo = 'davidhalter/jedi-vim'
 
 [[plugins]]
 repo = 'drmingdrmer/xptemplate'
-hook_add = 'source /root/.config/nvim/container/plugin/xptemplate.vim'
+hook_add = 'source ~/.config/nvim/container/plugin/xptemplate.vim'
 
 [[plugins]]
 repo = 'tell-k/vim-autopep8'
-hook_add = 'source /root/.config/nvim/container/plugin/AutoPEP8.vim'
+hook_add = 'source ~/.config/nvim/container/plugin/AutoPEP8.vim'
 
 [[plugins]]
 repo = 'nvie/vim-flake8'
 
 [[plugins]]
 repo = 'Yggdroot/indentLine'
-hook_add = 'source /root/.config/nvim/container/plugin/IndentLine.vim'
+hook_add = 'source ~/.config/nvim/container/plugin/IndentLine.vim'
 
 [[plugins]]
 repo = 'ntpeters/vim-better-whitespace'
-hook_add = 'source /root/.config/nvim/container/plugin/whitespace.vim'
+hook_add = 'source ~/.config/nvim/container/plugin/whitespace.vim'
 
 [[plugins]]
 repo = 'scrooloose/nerdcommenter'
 
 [[plugins]]
 repo = 'tacahiroy/ctrlp-funky'
-hook_add = 'source /root/.config/nvim/container/plugin/ctrlp-funky.vim'
+hook_add = 'source ~/.config/nvim/container/plugin/ctrlp-funky.vim'
 
 [[plugins]]
 repo = 'tpope/vim-surround'
