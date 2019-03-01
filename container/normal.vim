@@ -32,9 +32,9 @@ set cursorline
 set guicursor=i:block-iCursor-blinkon0,v:block-vCursor
 
 " 修改配色, 使用gruvbox
-colorscheme gruvbox
-let g:gruvbox_contrast_dark='hard'
 set background=dark
+colorscheme hybrid_material
+" let g:gruvbox_contrast_dark='hard'
 
 " 语法高亮
 syntax on
