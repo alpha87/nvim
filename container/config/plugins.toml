@@ -76,7 +76,4 @@ hook_add = 'source ~/.config/nvim/container/plugin/ctrlp-funky.vim'
 repo = 'tpope/vim-surround'
 
 [[plugins]]
-repo = 'morhetz/gruvbox'
-
-[[plugins]]
 repo = 'ervandew/supertab'
