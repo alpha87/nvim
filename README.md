@@ -1,6 +1,6 @@
 # 模块化vim配置
 
-具体见[我的博客](https://lijianxun.top/2019/01/10/cjsafwdjl0011w36mhjwm859i/)
+具体见[我的博客](https://lijianxun.top/41.html)
 
 ## init.vim
 
