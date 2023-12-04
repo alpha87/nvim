@@ -4,11 +4,11 @@ return {
         config = function()
             require("conform").setup({
                 formatters_by_ft = {
+                    html = { "djlint" },
                     lua = { "stylua" },
-                    -- Conform will run multiple formatters sequentially
                     python = { "blue" },
-                    -- Use a sub-list to run only the first available formatter
                     javascript = { { "prettierd", "prettier" } },
+                    ["*"] = { "codespell" },
                 },
             })
         end,
