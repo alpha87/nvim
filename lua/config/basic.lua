@@ -1,6 +1,6 @@
 -- 使用相对行号
 vim.wo.number = true
--- vim.wo.relativenumber = true
+vim.wo.relativenumber = true
 -- utf8
 vim.g.encoding = "UTF-8"
 vim.o.fileencoding = "utf-8"
