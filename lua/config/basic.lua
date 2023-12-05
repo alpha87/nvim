@@ -24,4 +24,4 @@ vim.bo.autoread = true
 -- 主题设置
 vim.o.background = "dark"
 -- 配置热键
-vim.g.mapleader = " "
+-- vim.g.mapleader = " "
