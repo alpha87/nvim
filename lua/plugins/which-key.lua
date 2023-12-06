@@ -23,11 +23,16 @@ return {
                 ["<leader>fw"] = { "<cmd>HopWord<cr>", "HopWord 快速定位" },
                 ["<leader>ft"] = { "<cmd>NvimTreeToggle<cr>", "NvimTreeToggle 打开/关闭 文件树" },
                 ["<leader>fs"] = { "<cmd>SymbolsOutline<cr>", "SymbolsOutline 打开/关闭 代码跳转" },
+                ["<leader>ff"] = { "<cmd>Telescope find_files<cr>", "Telescope 查找文件" },
+                ["<leader>fg"] = { "<cmd>Telescope live_grep<cr>", "Telescope 查找内容" },
+                ["<leader>fb"] = { "<cmd>Telescope buffers<cr>", "Telescope 查找缓冲区" },
+                ["<leader>fh"] = { "<cmd>Telescope help_tags<cr>", "Telescope 查找帮助" },
                 -- <leader>b bufferline 操作
                 ["<leader>b"] = { name = "Bufferline 操作" },
                 ["<leader>bp"] = { "<cmd>BufferLineCyclePrev<cr>", "BufferLineCyclePrev 跳转到上一个缓冲区" },
                 ["<leader>bn"] = { "<cmd>BufferLineCycleNext<cr>", "BufferLineCycleNext 跳转到下一个缓冲区" },
                 ["<leader>bc"] = { "<cmd>BufferLinePickClose<cr>", "BufferLinePickClose 关闭当前缓冲区" },
+                ["<leader>bo"] = { "<cmd>BufferLineCloseOthers<cr>", "BufferLineCloseOthers 关闭其他缓冲区" },
                 ["<leader>bg"] = { "<cmd>BufferLinePick<cr>", "BufferLinePick 选择缓冲区" },
                 -- <leader>d dap 代码调试
                 ["<leader>d"] = { name = "DAP 代码调试" },
