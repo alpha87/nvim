@@ -5,8 +5,8 @@ vim.wo.relativenumber = true
 vim.g.encoding = "UTF-8"
 vim.o.fileencoding = "utf-8"
 -- jkhl 移动时光标周围保留8行
-vim.o.scrolloff = 8
-vim.o.sidescrolloff = 8
+vim.o.scrolloff = 10
+vim.o.sidescrolloff = 10
 -- 高亮所在行
 vim.wo.cursorline = true
 -- 显示左侧图标指示列
@@ -18,10 +18,16 @@ vim.o.ignorecase = true
 vim.o.smartcase = true
 -- 边输入边搜索
 vim.o.incsearch = true
+-- 搜索时匹配括号
+vim.o.showmatch = true
 -- 当文件被外部程序修改时，自动加载
 vim.o.autoread = true
 vim.bo.autoread = true
 -- 主题设置
 vim.o.background = "dark"
+-- 历史记录
+vim.o.history = 1000
+-- 文件监视
+vim.o.autoread = true
 -- 配置热键
 -- vim.g.mapleader = " "
