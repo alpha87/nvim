@@ -48,10 +48,10 @@ return {
                 ["<leader>di"] = { "<cmd>lua require'dap'.step_into()<cr>", "Step Into" },
                 ["<leader>do"] = { "<cmd>lua require'dap'.step_over()<cr>", "Step Over" },
                 ["<leader>dO"] = { "<cmd>lua require'dap'.step_out()<cr>", "Step Out" },
-                ["<leader>dr"] = { "<cmd>lua require'dap'.repl.toggle()<cr>", "Toggle Repl" },
-                ["<leader>dl"] = { "<cmd>lua require'dap'.run_last()<cr>", "Run Last" },
+                ["<leader>dt"] = { "<cmd>lua require'dap'.repl.toggle()<cr>", "Toggle Repl" },
+                ["<leader>dr"] = { "<cmd>lua require'dap'.run_last()<cr>", "Run" },
                 ["<leader>du"] = { "<cmd>lua require'dapui'.toggle()<cr>", "Dap UI" },
-                ["<leader>dt"] = { "<cmd>lua require'dap'.terminate()<cr>", "Terminate" },
+                ["<leader>dx"] = { "<cmd>lua require'dap'.terminate()<cr>", "Terminate" },
             }
             local opts = {}
             wk.register(mappings, opts)
