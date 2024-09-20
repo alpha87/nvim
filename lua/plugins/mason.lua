@@ -33,7 +33,7 @@ return {
                 ensure_installed = {
                     "lua_ls",
                     "jsonls",
-                    "tsserver",
+                    "ts_ls",
                     "jedi_language_server",
                     "pylsp",
                     "yamlls",
@@ -50,7 +50,7 @@ return {
             local lspconfig = require("lspconfig")
             lspconfig.lua_ls.setup({})
             lspconfig.jsonls.setup({})
-            lspconfig.tsserver.setup({})
+            lspconfig.ts_ls.setup({})
             lspconfig.jedi_language_server.setup({})
             lspconfig.pylsp.setup({})
             lspconfig.yamlls.setup({})
