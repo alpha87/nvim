@@ -12,6 +12,11 @@ return {
                 -- <leader>n 常用快捷键
                 { "<leader>n", group = "Normal 快捷键" },
                 { "<leader>nh", "<cmd>nohlsearch<cr>", desc = "nohlsearch 清除搜索高亮", mode = "n" },
+                -- vim wiki 插件
+                { "<leader>w", group = "Vimwiki 插件" },
+                { "<leader>ww", "<cmd>VimwikiIndex<cr>", desc = "打开 vim wiki" },
+                { "<leader>wt", "<cmd>VimwikiTabIndex<cr>", desc = "新 Tab 打开 vim wiki" },
+                { "<leader>ws", "<cmd>VimwikiUISelect<cr>", desc = "选择 wiki 文件" },
                 -- <leader>g 跳转定义
                 { "<leader>g", group = "Goto 跳转" },
                 { "<leader>gd", "<cmd>Lspsaga peek_definition<cr>", desc = "Lspsaga peek_definition 查看定义" },
