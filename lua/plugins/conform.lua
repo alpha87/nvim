@@ -6,9 +6,13 @@ return {
                 formatters_by_ft = {
                     html = { "djlint" },
                     lua = { "stylua" },
-                    python = { "blue" },
+                    python = { "isort", "blue" },
                     javascript = { { "prettierd", "prettier" } },
                     ["*"] = { "codespell" },
+                },
+                format_on_save = {
+                    timeout_ms = 500,
+                    lsp_fallback = true,
                 },
             })
         end,
