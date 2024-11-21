@@ -4,16 +4,21 @@ local autocmd = vim.api.nvim_create_autocmd
 autocmd("BufWritePre", {
     pattern = "*",
     callback = function(args)
-        require("conform").format({ bufnr = args.buf })
+        require("conform").format({
+            bufnr = args.buf,
+            lsp_fallback = true,
+        })
     end,
 })
 
--- nvim-tree 自动关闭
-autocmd("BufEnter", {
-    nested = true,
+-- 退出时关闭 NvimTree 和 SymbolsOutline
+autocmd("QuitPre", {
     callback = function()
-        if #vim.api.nvim_list_wins() == 1 and vim.api.nvim_buf_get_name(0):match("NvimTree_") ~= nil then
-            vim.cmd("quit")
+        if package.loaded["symbols-outline"] then
+            pcall(vim.cmd, "SymbolsOutlineClose")
+        end
+        if package.loaded["nvim-tree"] then
+            pcall(vim.cmd, "NvimTreeClose")
         end
     end,
 })
