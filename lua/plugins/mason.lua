@@ -40,6 +40,7 @@ return {
                     "lemminx",
                     "taplo",
                     "pyright",
+                    "black",
                 },
             })
         end,
@@ -57,6 +58,7 @@ return {
             lspconfig.lemminx.setup({})
             lspconfig.taplo.setup({})
             lspconfig.pyright.setup({})
+            lspconfig.black.setup({})
         end,
     },
 }
