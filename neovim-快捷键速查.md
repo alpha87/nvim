@@ -1,6 +1,6 @@
 # Neovim 快捷键速查表
 
-> 空格键 = `<leader>`，即按空格开始
+> `\` = `<leader>`，即按 `\` 开始
 > 按 `<leader>` 后稍等，which-key 会弹出提示
 
 ---
