@@ -1,0 +1,47 @@
+return {
+    {
+        "stevearc/aerial.nvim",
+        cmd = "AerialToggle",
+        dependencies = { "nvim-tree/nvim-web-devicons" },
+        config = function()
+            require("aerial").setup({
+                backends = { "treesitter", "lsp", "markdown" },
+                layout = {
+                    max_width = { 40, 0.3 },
+                    min_width = 25,
+                    default_direction = "right",
+                    placement = "edge",
+                },
+                show_linenumbers = true,
+                icons = {
+                    File = "󰈚",
+                    Module = "",
+                    Namespace = "",
+                    Package = "",
+                    Class = "",
+                    Method = "",
+                    Property = "",
+                    Field = "",
+                    Constructor = "",
+                    Enum = "",
+                    Interface = "",
+                    Function = "",
+                    Variable = "",
+                    Constant = "",
+                    String = "",
+                    Number = "",
+                    Boolean = "",
+                    Array = "",
+                    Object = "",
+                    Key = "",
+                    Null = "",
+                    EnumMember = "",
+                    Struct = "",
+                    Event = "",
+                    Operator = "",
+                    TypeParameter = "",
+                },
+            })
+        end,
+    },
+}
